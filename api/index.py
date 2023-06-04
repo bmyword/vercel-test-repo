@@ -6,6 +6,6 @@ app = Flask(__name__)
 def home():
     return 'Hello, Universe!'
 
-@app.route('/about')
+@app.route('/team')
 def about():
-    return 'About'
+    return 'Team Name: I have 2 members'
